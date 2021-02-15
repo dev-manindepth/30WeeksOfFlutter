@@ -20,10 +20,10 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
           appBar: AppBar(
-            title: Text('Manish\'s Website'),
+            title: Text('Demo Website'),
           ),
           body: WebView(
-            initialUrl: "https://dev-manindepth.github.io/YAY-Portfolio-Assignment/",
+            initialUrl: "https://flutter.dev/",
             onWebViewCreated: (controller) => _controller.complete(controller),
           ),
           bottomNavigationBar: Container(
